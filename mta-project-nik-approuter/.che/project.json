@@ -1,0 +1,1 @@
+{"type":"approuter.nodejs","builders":{"default":"sap.nodejs","configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"projectType\":[\"approuter.nodejs\"]}"]},"description":"mta-project-nik-approuter","mixinTypes":["mtamodule"]}
