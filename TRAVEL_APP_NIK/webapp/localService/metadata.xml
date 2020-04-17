@@ -23,7 +23,7 @@
 					sap:label="Agency ID" sap:quickinfo="Flight Reference Scenario: Agency ID"/><Property Name="Name" Type="Edm.String" MaxLength="80" sap:label="Agency Name" sap:quickinfo="Flight Reference Scenario: Agency Name"/><Property Name="Street" Type="Edm.String" MaxLength="60" sap:label="Street" sap:quickinfo="Flight Reference Scenario: Street"/><Property Name="PostalCode" Type="Edm.String" MaxLength="10" sap:display-format="UpperCase" sap:label="Postal Code"
 					sap:quickinfo="Flight Reference Scenario: Postal Code"/><Property Name="City" Type="Edm.String" MaxLength="40" sap:label="City" sap:quickinfo="Flight Reference Scenario: City"/><Property Name="CountryCode" Type="Edm.String" MaxLength="3" sap:display-format="UpperCase" sap:label="Country Key"
 					sap:value-list="standard"/><Property Name="PhoneNumber" Type="Edm.String" MaxLength="30" sap:display-format="UpperCase" sap:label="Phone No."
-					sap:quickinfo="Flight Reference Scenario: Phone Nr."/><Property Name="EMailAddress" Type="Edm.String" MaxLength="256" sap:label="E-Mail Address"
+					sap:quickinfo="Flight Reference Scenario: Phone Number"/><Property Name="EMailAddress" Type="Edm.String" MaxLength="256" sap:label="E-Mail Address"
 					sap:quickinfo="Flight Reference Scenario: Email Address"/><Property Name="WebAddress" Type="Edm.String" MaxLength="256" sap:label="Web Address" sap:quickinfo="Flight Reference Scenario: Web Address"/><NavigationProperty Name="to_Country" Relationship="cds_zui_c_travel_m_nik.assoc_7B8A0A23F3148555D7C8E7C453F7928E"
 					FromRole="FromRole_assoc_7B8A0A23F3148555D7C8E7C453F7928E" ToRole="ToRole_assoc_7B8A0A23F3148555D7C8E7C453F7928E"/></EntityType>
 			<EntityType Name="AirportType" sap:label="Airport View - CDS Data Model" sap:content-version="1">
